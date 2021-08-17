@@ -243,21 +243,21 @@ namespace Sunley.Security
             }
             public static string RipeMd(string rawData)
             {
-
+                throw new NotImplementedException();
                 // Create a SHA256   
-                using (RIPEMD160 hash = RIPEMD160.Create())
-                {
-                    // ComputeHash - returns byte array  
-                    byte[] bytes = hash.ComputeHash(Encoding.UTF8.GetBytes(rawData));
+                //using (RIPEMD160 hash = RIPEMD160.Create())
+                //{
+                //    // ComputeHash - returns byte array  
+                //    byte[] bytes = hash.ComputeHash(Encoding.UTF8.GetBytes(rawData));
 
-                    // Convert byte array to a string   
-                    StringBuilder builder = new StringBuilder();
-                    for (int i = 0; i < bytes.Length; i++)
-                    {
-                        builder.Append(bytes[i].ToString("x2"));
-                    }
-                    return builder.ToString();
-                }
+                //    // Convert byte array to a string   
+                //    StringBuilder builder = new StringBuilder();
+                //    for (int i = 0; i < bytes.Length; i++)
+                //    {
+                //        builder.Append(bytes[i].ToString("x2"));
+                //    }
+                //    return builder.ToString();
+                //}
             }
         }
 

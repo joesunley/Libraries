@@ -50,7 +50,6 @@ namespace Sunley.Security
             txtPassword.ForeColor = Color.Black;
             btnLogin.ForeColor = Color.White;
 
-            pbExit.Image = Resources.Resources.Cross_Black;
         }
         private void SetDarkTheme(Color primary)
         {
@@ -63,7 +62,6 @@ namespace Sunley.Security
             txtPassword.ForeColor = Color.White;
             btnLogin.ForeColor = Color.White;
 
-            pbExit.Image = Resources.Resources.Cross_White;
         }
         private void SetPrimary(Color primary)
         {
