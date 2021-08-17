@@ -361,3 +361,12 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+
+
+# My Hidden Shit
+/bin/
+/obj/
+.csproj
+.csproj.user
+.user

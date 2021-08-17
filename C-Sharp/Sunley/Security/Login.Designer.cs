@@ -161,7 +161,6 @@ namespace Sunley.Security
             // pbExit
             // 
             this.pbExit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pbExit.Image = Sunley.Resources.Resources.Cross_Black;
             this.pbExit.Location = new System.Drawing.Point(243, 12);
             this.pbExit.Name = "pbExit";
             this.pbExit.Size = new System.Drawing.Size(45, 45);
